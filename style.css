@@ -1,0 +1,21 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sentence-container {
+    width: fit-content;
+    padding: 10px;
+    /* background-color: lightgray; */
+    cursor: pointer;
+  }
+
+  .word {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightblue;
+  }
